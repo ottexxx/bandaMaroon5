@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#D082A5;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-family:'Oswald', sans-serif;
+}
+
+nav{
+    margin-top: 45px;
+    margin-right: 40px;
+    font-size:xx-large;
+}
+
+.newAlbum{
+    color: #60003D;
+    margin-top: 30px;
+    font-family:'Chivo Mono', monospace;
+    align-self: center;
+    text-align: center;
+}
+
+main{
+    background-color: #D082A5;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.ftbanda{
+    background-color: #60003D;
+    padding: 7px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ftbanda a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Bebas Neue', cursive;
+    padding: 30px 200px;
+    background-color: #BC2243;
+    border-radius: 55px;
+    font-size: 25pt;
+}
+
+.text{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 36px;
+    text-align: justify;
+}
+
+.musFav{
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 133px;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0 #60003D, 1px -1px 0 #60003D, -1px 1px 0 #60003D, 1px 1px 0 #60003D;
+}
+
+.abacate{
+   margin-left: 38px;
+   margin-top: 50px;
+}
+
+.abobra{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.alface{
+    margin-left: 38px;
+    margin-top: 50px;
+ }
+ 
+ .al{
+     font-family: 'Roboto', sans-serif;
+     color: #FFF;
+     margin-left: 22px;
+     margin-bottom: 10px;
+     font-size: 20px;
+ }
+
+ .banana{
+    margin-left: 38px;
+    margin-top: 50px;
+ }
+ 
+ .bana{
+     font-family: 'Roboto', sans-serif;
+     color: #FFF;
+     margin-left: 22px;
+     margin-bottom: 10px;
+     font-size: 20px;
+ }
+
+ .uva{
+    margin-left: 38px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ 
+ .uv{
+     font-family: 'Roboto', sans-serif;
+     color: #FFF;
+     margin-left: 22px;
+     margin-bottom: 10px;
+     font-size: 20px;
+ }
+
+ .all1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 5px;
+ }
+
+ footer{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .copy{
+    font-family: 'Bebas Neue', cursive;
+ }
+
+ iframe{
+    border-radius: 12px;
+ }
